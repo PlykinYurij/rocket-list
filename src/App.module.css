@@ -1,0 +1,64 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: yellowgreen;
+}
+
+.container {
+  max-width: 1000px;
+}
+
+.containerRocket {
+  display: flex;
+  padding-bottom: 10px;
+  background-color: brown;
+}
+
+.description {
+  width: 70%;
+  background-color: aquamarine;
+  margin-left: 10px;
+}
+
+.headerRocket {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+}
+
+.avatarRocket {
+  /* padding-right: 10px; */
+  width: 30%;
+  background-color: aqua;
+
+}
+
+img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.missionName {
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.date {
+  font-weight: lighter;
+}
+
+.details {
+  text-align: justify;
+}
+
+.select {
+  display: flex;
+  padding-bottom: 20px;
+  background-color: blue;
+}
+
+.header {
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
