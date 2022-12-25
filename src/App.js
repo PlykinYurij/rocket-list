@@ -1,14 +1,10 @@
-import React, { useEffect, useState } from "react";
-import Header from "./components/Header/Header";
-
-
+import React from "react"
+import Container from "./components/Container/Container"
 
 const App = () => {
-    return (
-        <div>
-            <Header title="Launches" />
-        </div>
-    )
+    return <>
+        <Container title="Launches" />
+    </>
 }
 
 export default App
